@@ -1,0 +1,28 @@
+{
+  "name": "cyber-security-awareness-project",
+  "version": "1.0.0",
+  "description": "مشروع ندوة الأمن السيبراني - طلاب مستوى رابع قسم IT - كلية العلوم التطبيقية والتربوية بالنادرة",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "awareness",
+    "it-students"
+  ],
+  "author": "طلاب مستوى رابع قسم IT - كلية العلوم التطبيقية والتربوية بالنادرة",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.4",
+    "node-telegram-bot-api": "^0.61.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.16.0",
+    "axios": "^0.26.1"
+  }
+}
